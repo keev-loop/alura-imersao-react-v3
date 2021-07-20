@@ -22,6 +22,6 @@ export default async function recebedorDeRequests(request, response) {
         return;
     }
     response.status(404).json({
-        message: 'GET vazio, POST contem!'
+        message: 'GET não configurado, POST condigurado!'
     })
 }
